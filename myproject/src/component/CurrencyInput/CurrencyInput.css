@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@1,400;1,700&display=swap');
+
+
+.group{
+    text-align: center;
+   position: relative;
+   
+  
+    
+}
+.group__input{
+    padding: 20px 20px;
+    outline: none;
+    border:0.5px solid rgba(0, 0, 0, 0.381);
+    font-size:24px;
+    font-family:" Roboto";
+    font-size: 400;
+ 
+    
+}
+.text{
+    position:absolute;
+    top: 0px;
+    left: 525px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(69, 63, 63);
+
+}
+.select{
+ position: absolute;
+ top: 20px;
+ left: 750px;
+   padding: 5px 5px;
+   background-color:rgb(69, 63, 63);
+   outline: none;
+   color:white;
+   border-radius:4px;
+}
+.select::-webkit-scrollbar{
+    width: 5px;
+height: 10px;
+}
+.select::-webkit-scrollbar-track{
+    background-color:rgb(69, 63, 63);
+}
+.select::-webkit-scrollbar-thumb{
+    background-color: #ffeb00;
+    border-radius:8px;
+}
